@@ -29,6 +29,7 @@ api = (url, payload)=>{
 
 
 //Example usage
+/*
 api("https://www.vam.ac.uk/api/json/museumobject/O12345")
 	.then((response)=>{
 		//Success
@@ -38,3 +39,4 @@ api("https://www.vam.ac.uk/api/json/museumobject/O12345")
 		//Chance of bad reply if potentialResponse is something, but assume something like 404 page or other error.
 		console.log((potentialResponse ? potentialResponse : "Could not get content"))
 	})
+*/
