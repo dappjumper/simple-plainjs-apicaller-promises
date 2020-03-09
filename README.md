@@ -2,7 +2,7 @@
 Simple function for doing POST and GET requests using promises with plain Javascript
 
 ## Usage
-- Simply include the script (remove the example call)
+- Simply include the script and make sure the function is visible to your code.
 - Use like any other promise   
 ```
   api(urlToCall, JSONObject)
