@@ -1,4 +1,4 @@
-api = (url, payload)=>{
+const api = (url, payload)=>{
 	return new Promise((resolve, reject)=>{
 		let xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function () {
