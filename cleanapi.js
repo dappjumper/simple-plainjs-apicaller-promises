@@ -26,17 +26,3 @@ const api = (url, payload)=>{
         	xhttp.send((payload ? (typeof payload !== 'string' ? payload : JSON.stringify(payload)) : null));
 	})
 }
-
-
-//Example usage
-/*
-api("https://www.vam.ac.uk/api/json/museumobject/O12345")
-	.then((response)=>{
-		//Success
-		console.log(response)
-	})
-	.catch((potentialResponse)=>{
-		//Chance of bad reply if potentialResponse is something, but assume something like 404 page or other error.
-		console.log((potentialResponse ? potentialResponse : "Could not get content"))
-	})
-*/
