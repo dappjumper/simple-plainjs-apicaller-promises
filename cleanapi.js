@@ -22,8 +22,8 @@ const api = (url, payload)=>{
 		xhttp.open((payload ? 'POST' : 'GET'), url, true);
 
 		//Support both GET and POST based on payload paramter, remembers to stringify objects if not already.
-	    if(payload) xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-        xhttp.send((payload ? (typeof payload !== 'string' ? payload : JSON.stringify(payload)) : null));
+		if(payload) xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        	xhttp.send((payload ? (typeof payload !== 'string' ? payload : JSON.stringify(payload)) : null));
 	})
 }
 
