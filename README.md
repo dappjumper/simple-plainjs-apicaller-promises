@@ -12,7 +12,7 @@ api(urlToCall, JSONObject)
     /** Response gotten as JSON**/
   })
   .catch((potentialResponse)=>{
-    /** Error in request or response not JSON, if so pontentialResponse contains the response as string **/
+    /** Error in request or response not JSON, if so potentialResponse contains the response as string **/
   })
 ```  
 
@@ -23,6 +23,6 @@ api(urlToCall)
     /** Response gotten as JSON**/
   })
   .catch((potentialResponse)=>{
-    /** Error in request or response not JSON, if so pontentialResponse contains the response as string **/
+    /** Error in request or response not JSON, if so potentialResponse contains the response as string **/
   })
 ```  
